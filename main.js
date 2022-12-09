@@ -18,7 +18,7 @@ function draw() {
 
 
   // noStroke()
-  let s = random(80,200)
+  let s = Math.sin(frameCount/10)*100+120
   ellipse(mouseX,mouseY,s)
   ellipse(width-mouseX,mouseY,s)
 

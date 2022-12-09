@@ -1,6 +1,5 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  fill(255,0,0)
   fill(0)
   background(0);
 
@@ -11,7 +10,7 @@ function draw() {
 
 
   strokeWeight(2)
-  stroke(255,0,0)
+  stroke(255)
   // line(mouseX,mouseY,pmouseX,pmouseY);
   // line(width-mouseX,mouseY,width-pmouseX,pmouseY);
 
